@@ -1,5 +1,11 @@
 {
     "header": {
-        "title": "Todo List"
+        "title": "Todo List",
+        "modal": {
+            "signed": "User name",
+            "profile": "Perfil",
+            "settings": "Configurações",
+            "logout": "Sair"
+        }
     }
 }
