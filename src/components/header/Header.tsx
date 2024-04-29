@@ -4,6 +4,7 @@ import Logo from '../../assets/images/logo.svg';
 import { Modal, Pressable } from 'react-native';
 import Title from '../title/Title';
 import useHeader from './hooks/useHeader';
+import { useEffect } from 'react';
 
 const Header = ({ t }: WithTranslation) => {
     const { handleShowModal, isShowModal } = useHeader();
